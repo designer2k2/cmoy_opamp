@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "pcb_art")(type "KiCad")(uri "${KIPRJMOD}/pcb_art.pretty")(options "")(descr ""))
+)
