@@ -1884,6 +1884,11 @@
     (uuid ffd175d1-912a-4224-be1e-a8198680f46b)
   )
 
+  (text "9V Battery direct clip on:\n\nKeystone 594 593 is the battery then flat against the PCB?\n\nso let them point inwards, PCB sitting above them? \n\n or 967\n\n"
+    (at 200.66 92.71 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 0f820858-24d9-48f6-bd69-c4904a6fc2d0)
+  )
   (text "Input" (at 21.59 39.37 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 3c847883-a462-4ea9-9466-d1dd1edc5a97)
@@ -1891,6 +1896,10 @@
   (text "Single OPV alternatives" (at 57.15 139.7 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 97241d01-1950-46e2-8879-a2e21619fd97)
+  )
+  (text "Ground pins:" (at 223.52 41.91 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid f2663dce-cf85-4c31-b679-060041e13006)
   )
   (text "Output" (at 156.21 40.64 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -2494,7 +2503,7 @@
     (property "Reference" "R9" (at 210.312 124.46 90)
       (effects (font (size 1.016 1.016)))
     )
-    (property "Value" "100k" (at 208.4578 124.4346 90)
+    (property "Value" "2k2" (at 208.4578 124.4346 90)
       (effects (font (size 1.016 1.016)))
     )
     (property "Footprint" "Resistor_SMD:R_1206_3216Metric" (at 206.502 124.46 90)
@@ -2744,7 +2753,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 257.81 50.8 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid 0121b182-9316-4628-8952-01af57c3ee7c)
     (property "Reference" "TP1" (at 259.207 46.8543 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2897,7 +2906,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 246.38 50.8 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid 421d29e1-ef6e-4c4e-9807-53c9ba1abc9d)
     (property "Reference" "TP2" (at 247.777 46.8543 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3219,7 +3228,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 234.95 50.8 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid 7dbbb7f1-0c11-43d0-a99e-bec3bc68fefa)
     (property "Reference" "TP4" (at 236.347 46.8543 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3664,7 +3673,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 223.52 50.8 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid fb58d64d-1e17-49ad-b126-0aad889eacaa)
     (property "Reference" "TP3" (at 224.917 46.8543 0)
       (effects (font (size 1.27 1.27)) (justify left))
