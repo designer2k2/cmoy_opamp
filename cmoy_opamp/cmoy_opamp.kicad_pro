@@ -449,7 +449,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "cmoy_opamp.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
